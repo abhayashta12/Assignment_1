@@ -13,9 +13,9 @@
 </div>
 </main>
 
-<h1>Contact Us</h1>
+<h1>Contact</h1>
 
-<div class="outerDiv">
+<!-- <div class="outerDiv">
   <h3>General Inquires</h3>
 <form name="contact" id="contact">
 <label for="name">Name</label>
@@ -32,7 +32,33 @@
 <br><br><br>
 <input type="submit" name="submit" id="submit" value="Submit Form" class="submitBtn">
    </form>
-</div>
+</div> -->
+<td class="contactForm">
+  <form action="" method="post" id="contactFormData">
+      <p>
+          <label for="firstName">First Name</label>
+          <input class="contactFormInput" id="firstName" name="firstName" type="text" tabindex="1" required="required" placeholder="Abhay">
+      </p>
+      <p>
+          <label for="lastName">Last Name</label>
+          <input class="contactFormInput" id="lastName" name="lastName" type="text" tabindex="3" required="required" placeholder="Ashta">
+      </p>
+      <p>
+          <label for="contactNumber">Contact Number</label>
+          <input class="contactFormInput" id="contactNumber" name="contactNumber" type="text" tabindex="5" required="required" placeholder="(123) 456-7890">
+      </p>
+      <p>
+          <label for="message">Message</label>
+          <textarea class="contactFormInput" id="message" name="message" tabindex="7" placeholder="--- Enter you message ---"></textarea>
+      </p>
+      <br/>
+      <hr>
+      <p id="buttons">
+          <input class="buttons" id="submitValue" type="submit" name="btnSubmit" value="Submit" tabindex="9">
+          <input class="buttons" id="reset" type="reset" name="btnReset" value="Clear" tabindex="11">
+      </p>
+  </form>
+</td>
 
 
 <%- include partials/bottom_nav.ejs %>
