@@ -1,11 +1,10 @@
 {
-  "name": "week-4",
-  "version": "0.0.0",
+  "name": "abhay-ashta-assignment1",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
   },
-
   "engines": {
     "node": "^14.00.0",
     "npm": "^6.0.0"
@@ -22,5 +21,18 @@
     "morgan": "~1.9.1",
     "npm": "^8.19.2",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "assignment1 for COMP229",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhayashta12/Assignment_1.git"
+  },
+  "author": "Abhay Ashta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhayashta12/Assignment_1/issues"
+  },
+  "homepage": "https://github.com/abhayashta12/Assignment_1#readme"
 }
